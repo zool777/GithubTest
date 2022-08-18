@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: auto;
+}
+.menu{
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: flex-end;
+}
+.top{
+    display: flex;
+    align-items: center;
+    
+}
+.button{
+    display: flex;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(12, 37, 176);
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.button:hover{
+    background-color: rgb(69, 95, 244);  
+}
+.but a{
+    color: white;
+    text-decoration: none;
+}
+.fa-phone-alt{
+    color: white;
+}
+.fa-copyright{
+    color: rgb(12, 37, 176);
+}
+.logo{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+.top-menu{
+    display: flex;
+    list-style: none;
+    margin-left: 400px;
+}
+.top-menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.top-menu a:hover{
+    color: blue;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 0;
+  
+}
+h1{
+    font-size: 50px;  
+    opacity: 100%;
+    margin-left: 80px;
+    animation-name: h1;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+@keyframes h1{
+    0%{
+        opacity: 0;
+    }
+}
+
+.p1{
+    font-size: 20px;
+    opacity: 100%;
+    animation-name: p1;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+@keyframes p1{
+    0%{
+        opacity: 0;
+    }
+}
+
+span{
+    color: rgb(12, 37, 176);
+}
+
+.bloc1{
+    width: 100%;
+    background-image: url(img/1616139131_7-p-dizain-kafe-v-stile-loft-7.jpg) ;
+    height: 400px;
+    background-position: 50% 35%;
+    margin-top: 60px;    
+}
+h2{
+    color: white;
+    padding: 150px 0 100px 40px;
+}
+.bloc2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 35px;
+    grid-column-gap: 25px;
+    padding: 60px 20px;
+    
+}
+.icon{
+    font-size: 25px;
+    color: rgb(0, 106, 255);
+}
+.min h4{
+    padding: 20px 0;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+    background-color: rgb(12, 37, 176);
+    padding: 50px 20px 50px 40px;
+}
+.foot{
+    list-style: none;
+}
+.foot a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.foot a:hover{
+    color: rgb(246, 252, 92);
+}
+h5{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.min2, .min3{
+    color: white;
+}
+.min3 a{
+    width: 300px;
+    height: 30px;
+    background-color: bisque;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+}
+.min3 a:hover{
+    background-color: rgb(253, 252, 251);
+    color: blue;
+}
